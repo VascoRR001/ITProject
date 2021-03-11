@@ -75,7 +75,7 @@
           <div class="block">
             <a href="#"><img src="img/lumbini.jpg" class="img-destinations"></a>
             <figcaption>
-              <h4 align="center"><u>Lumbini</u></h4>
+              <h4 align="center"><u><?php echo"Lumbini"?></u></h4>
             </figcaption>
             <div class="countries_desc">
               <p>Lumbini is Birth place of Lord Buddha. Lumbini is the foundation of world peace and pilgrimage for all peace loving people, bearing significance to the life, enlightenment and <a href="#" class="readmore"><i>Read More>> </i></a></p>
