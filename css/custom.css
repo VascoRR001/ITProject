@@ -93,3 +93,46 @@ color: orange;
     width: 100%;
     transition: transform 2s
 }
+#blog{
+    margin:1.5% 0;
+}
+#blog h2::after
+{
+  	content: '';
+    background: rgba(0,0,0,.5);
+    display:block;
+    height: 3px;
+    width: 170px;
+    margin: 10px auto 5px; 
+}
+
+.grid{
+    padding: 5px 5px;
+    background-color: #efefef;
+    height:280px;
+    }
+
+.grid figcaption h4{
+	display: block;
+    font-size: 18px;
+    line-height: 0.9;
+    color: #636e72;
+    margin-top: 5px;
+    text-transform: uppercase;
+    
+}
+.img-blog{
+    height: 235px;
+    width: 100%;
+    transition: transform 2s;
+}
+.blog-description{
+    padding:2% 0;
+    font-family: 'Bree Serif',serif !important;
+    
+}
+.grid figcaption a{
+    text-decoration: none;
+    color:#636e72;
+
+}
