@@ -125,7 +125,7 @@
   <!--Blog section-->
   <div id="blog">
     <div class="container">
-      <h2 class="text-center">Our Blog</h2>
+      <h2 class="text-center"><?php echo "Our Blog"?></h2>
       <div class="row">
         <div class="col-xs-12 col-md-4 item section-blog">
           <div class="grid">
