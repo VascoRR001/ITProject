@@ -111,7 +111,7 @@
               <h4 align="center"><u>POKHARA</u></h4>
             </figcaption>
             <div class="countries_desc">
-              <p>In Pokhara you can experience the excitement of adventure: boating, hiking, pony rides, paragliding, bungee, zipline or simply relaxing at one of the several lakes in the valley. </p>
+            <p>In Pokhara you can experience the excitement of adventure: boating, hiking, paragliding, bungee, zipline or simply relaxing at one of the several lakes in the valley. <a href="#" class="readmore"><i>Read More>> </i></a></p>
             </div>
           </div>
         </div>
