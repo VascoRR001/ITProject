@@ -78,7 +78,7 @@
               <h4 align="center"><u>Lumbini</u></h4>
             </figcaption>
             <div class="countries_desc">
-              <p>Lumbini is Birth place of Lord Buddha.Lumbini is the foundation of world peace and pilgrimage for all peace loving people, bearing significance to the life, enlightenment and death of Buddha</p>
+            <p>Lumbini is Birth place of Lord Buddha. Lumbini is the foundation of world peace and pilgrimage for all peace loving people, bearing significance to the life, enlightenment and <a href="#" class="readmore"><i>Read More>> </i></a></p>
             </div>
           </div>
         </div>
@@ -89,7 +89,7 @@
               <h4 align="center"><u>Mount Everest</u></h4>
             </figcaption>
             <div class="countries_desc">
-              <p>Mount Everest is Earth's highest mountain above sea level, located in the Mahalangur Himal sub-range of the Himalayas. Its elevation of 8,849 m </p>
+            <p>Mount Everest is Earth's highest mountain above sea level, located in the Mahalangur Himal sub-range of the Himalayas. Its elevation of 8,849 m. <a href="#" class="readmore"><i>Read More>> </i></a></p>
             </div>
           </div>
         </div>
@@ -100,7 +100,7 @@
               <h4 align="center"><u>PATAN </u></h4>
             </figcaption>
             <div class="countries_desc">
-              <p>It is one of the three Durbar Squares in the Kathmandu Valley. One of its attraction is the ancient royal palace where the Malla Kings of Lalitpur resided. </p>
+            <p>It is one of the three Durbar Squares in the Kathmandu Valley. One of its attraction is the ancient royal palace where the Malla Kings of Lalitpur resided. <a href="#" class="readmore"><i>Read More>> </i></a></p>
             </div>
           </div>
         </div>
