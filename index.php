@@ -71,53 +71,56 @@
     <div class="container">
       <h2 class="text-center">Explore Destinations</h2>
       <div class="row">
-        <div class="col-xs-12 col-sm-6 col-md-3 item">
+        <div class="col-xs-12 col-md-3 item section-about">
           <div class="block">
             <a href="#"><img src="img/lumbini.jpg" class="img-destinations"></a>
             <figcaption>
               <h4 align="center"><u>Lumbini</u></h4>
             </figcaption>
             <div class="countries_desc">
-            <p>Lumbini is Birth place of Lord Buddha. Lumbini is the foundation of world peace and pilgrimage for all peace loving people, bearing significance to the life, enlightenment and <a href="#" class="readmore"><i>Read More>> </i></a></p>
+              <p>Lumbini is Birth place of Lord Buddha. Lumbini is the foundation of world peace and pilgrimage for all peace loving people, bearing significance to the life, enlightenment and <a href="#" class="readmore"><i>Read More>> </i></a></p>
             </div>
           </div>
         </div>
-        <div class="col-xs-12 col-sm-6 col-md-3 item">
+        <div class="col-xs-12 col-md-3 item section-about">
           <div class="block">
             <a href="#"><img src="img/everest.jpg" class="img-destinations"></a>
             <figcaption>
               <h4 align="center"><u>Mount Everest</u></h4>
             </figcaption>
             <div class="countries_desc">
-            <p>Mount Everest is Earth's highest mountain above sea level, located in the Mahalangur Himal sub-range of the Himalayas. Its elevation of 8,849 m. <a href="#" class="readmore"><i>Read More>> </i></a></p>
+              <p>Mount Everest is Earth's highest mountain above sea level, located in the Mahalangur Himal sub-range of the Himalayas. Its elevation of 8,849 m. <a href="#" class="readmore"><i>Read More>> </i></a></p>
+              
             </div>
           </div>
         </div>
-        <div class="col-xs-12 col-sm-6 col-md-3 item">
+        <div class="col-xs-12 col-md-3 item section-about">
           <div class="block">
             <a href="#"><img src="img/patan.jpg" class="img-destinations"></a>
             <figcaption>
               <h4 align="center"><u>PATAN </u></h4>
             </figcaption>
             <div class="countries_desc">
-            <p>It is one of the three Durbar Squares in the Kathmandu Valley. One of its attraction is the ancient royal palace where the Malla Kings of Lalitpur resided. <a href="#" class="readmore"><i>Read More>> </i></a></p>
+              <p>It is one of the three Durbar Squares in the Kathmandu Valley. One of its attraction is the ancient royal palace where the Malla Kings of Lalitpur resided. <a href="#" class="readmore"><i>Read More>> </i></a></p>     
             </div>
           </div>
         </div>
-        <div class="col-xs-12 col-sm-6 col-md-3 item">
+        <div class="col-xs-12 col-md-3 item section-about">
           <div class="block">
             <a href="#"><img src="img/pokhara.jpg" class="img-destinations"></a>
             <figcaption>
               <h4 align="center"><u>POKHARA</u></h4>
             </figcaption>
             <div class="countries_desc">
-            <p>In Pokhara you can experience the excitement of adventure: boating, hiking, paragliding, bungee, zipline or simply relaxing at one of the several lakes in the valley. <a href="#" class="readmore"><i>Read More>> </i></a></p>
+              <p>In Pokhara you can experience the excitement of adventure: boating, hiking, paragliding, bungee, zipline or simply relaxing at one of the several lakes in the valley. <a href="#" class="readmore"><i>Read More>> </i></a></p>
+              
             </div>
           </div>
         </div>
       </div>
     </div>
   </div>
+
 
   <!--Blog section-->
   <div id="blog">
