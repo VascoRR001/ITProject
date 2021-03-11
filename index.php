@@ -119,6 +119,39 @@
     </div>
   </div>
 
+  <!--Blog section-->
+  <div id="blog">
+    <div class="container">
+      <h2 class="text-center">Our Blog</h2>
+      <div class="row">
+        <div class="col-xs-12 col-md-4 item section-blog">
+          <div class="grid">
+            <a href="#"><img src="img/Paragliding.jpg" class="img-blog"></a>
+            <figcaption>
+              <h4 align="center" class="blog-description"><a href="#">Adventurous Activities In Nepal</a></h4>
+            </figcaption>
+          </div>
+        </div>
+        <div class="col-xs-12 col-md-4 item section-blog">
+          <div class="grid">
+            <a href="#"><img src="img/thakali.jpg" class="img-blog"></a>
+            <figcaption>
+              <h4 align="center" class="blog-description"><a href="#">The Taste of Nepal</a></h4>
+            </figcaption>
+          </div>
+        </div>
+        <div class="col-xs-12 col-md-4 item section-blog">
+          <div class="grid">
+            <a href="#"><img src="img/festival1.jpg" class="img-blog"></a>
+            <figcaption>
+              <h4 align="center" class="blog-description"><a href="#">What To See In Nepal?</a></h4>
+            </figcaption>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
 
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js"
     integrity="sha384-KsvD1yqQ1/1+IA7gi3P0tyJcT3vR+NdBTt13hSJ2lnve8agRGXTTyNaBYmCR/Nwi"
