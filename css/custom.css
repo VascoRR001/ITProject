@@ -46,7 +46,7 @@ color: orange;
     background-size: cover;
 }
 .padding{
-    margin: 2rem;
+    margin: 1rem;
     padding: 2rem;
 }
 
@@ -135,4 +135,16 @@ color: orange;
     text-decoration: none;
     color:#636e72;
 
+}
+.readmore{
+    text-decoration: none;
+}
+.second-section{
+    margin:3% 0;
+}
+.section-about{
+    margin:3% 0;
+}
+.section-blog{
+    margin:3% 0;
 }
