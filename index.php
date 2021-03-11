@@ -52,11 +52,11 @@
   <div class="padding">
     <div class="container">
       <div class="row">
-        <div class=" col-md-6 ">
+        <div class="col-xs-12 col-md-6 second-section">
           <img src="img/temples.jpg">
         </div>
-        <div class=" col-md-6 text-center">
-          <h2><?php echo "Discover Nepal"?></h2>
+        <div class=" col-xs-12 col-md-6 text-center second-section">
+          <h2>Discover Nepal</h2>
           <p class="lead">"Nepal" is one of the fast growing tourism destination</p>
           <p class="lead">The ideology is to provide complete information about geographical location, natural beauty and scenary of Nepal. This portal aims to give information about the preparation 
             to be done before visiting Nepal.</p>
