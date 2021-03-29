@@ -1,6 +1,7 @@
-
 <!DOCTYPE html>
 <html>
+
+
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,7 +14,7 @@
 </head>
 <body>
   <!--Navigation-->
-  <nav class="navbar navbar-expand-lg navbar-dark  fixed-top">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
     <div class="container">
       <a class="navbar-brand" href="#"><img src="img/flag.gif" alt="logo" class="header-flag"></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -36,9 +37,6 @@
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">Contact Us</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="login.php">Login/SignUp</a>
           </li>
         </ul>
       </div>
