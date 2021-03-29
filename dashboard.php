@@ -18,7 +18,7 @@ if (isset($_POST['logout'])){
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Dashboard</title>
 </head>
 <body>
     <div>
@@ -52,12 +52,31 @@ if (isset($_POST['logout'])){
         <th width="200">Image</th>
         <th width="200">Action</th>
     </tr>
-    <tr>
-        <th width="100"></th>
-        <th width="200"></th>
-        <th width="200"></th>
-        <th width="200"></th>
-    </tr>
+    <?php
+        // Fetch Data
+        $query = "SELECT * FROM tbl_exp_dest";
+                
+        $results = mysqli_query($db, $query);
+
+        if (mysqli_num_rows($results) == 1) {
+            while ($row = mysqli_fetch_array($results)) {
+                $id = $row['id'];
+                $title = $row['title'];
+                $short_desc = $row['short_desc'];
+                $long_desc = $row['long_desc'];
+
+                echo
+                '<tr>
+                    <th width="100">'. $id .'</th>
+                    <th width="200">'. $title .'</th>
+                    <th width="200"> <img src="img/lumbini.jpg" width="70" height="70" /> </th>
+                    <th width="200"> Edit | Delete </th>
+                </tr>';
+            }
+        }else {
+            array_push($errors, "Nothing in database");
+        }
+    ?>
 </table>
 
 </body>

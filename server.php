@@ -9,6 +9,7 @@ $errors = array();
 // connect to the database
 $db = mysqli_connect('localhost', 'root', '', 'discover_nepal');
 
+
 // REGISTER USER
 if (isset($_POST['reg_user'])) {
   // receive all input values from the form
@@ -83,4 +84,5 @@ if (isset($_POST['login_user'])) {
         }
     }
   }
+
   ?>
