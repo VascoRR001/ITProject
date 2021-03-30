@@ -1,4 +1,12 @@
-<?php include('server.php') ?>
+<?php 
+
+include('server.php');
+
+if (!empty($_SESSION['username'])){
+    header('location: dashboard.php');
+}
+
+?>
 <!DOCTYPE html>
 <html>
 <head>
