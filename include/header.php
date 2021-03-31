@@ -1,4 +1,16 @@
-<nav class="navbar navbar-expand-lg navbar-dark  fixed-top">
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title><?php echo ("Discover Nepal") ?></title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+  <link href="css/custom.css" rel="stylesheet">
+</head>
+<body>
+  <!--Navigation-->
+  <nav class="navbar navbar-expand-lg navbar-dark  fixed-top">
     <div class="container">
       <a class="navbar-brand" href="#"><img src="img/flag.gif" alt="logo" class="header-flag"></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -29,3 +41,4 @@
       </div>
     </div>
   </nav>
+  <!--Navigation Ends here-->
