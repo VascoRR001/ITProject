@@ -24,16 +24,16 @@
             <a class="nav-link active" aria-current="page" href="#"><?php echo "Home"?></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">About Us</a>
+            <a class="nav-link" href="#padding">About Us</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Destinations</a>
+            <a class="nav-link" href="#about">Destinations</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">News</a>
+            <a class="nav-link" href="#blog">Blog</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Contact Us</a>
+            <a class="nav-link" href="#footer">Contact Us</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="login.php">Login/SignUp</a>
@@ -49,7 +49,7 @@
     <img src="img/boudha.jpg" alt="#" class="img-responsive">
   </div>
 
-  <div class="padding">
+  <div id="padding">
     <div class="container">
       <div class="row">
         <div class="col-xs-12 col-md-6 second-section">
@@ -193,6 +193,9 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.min.js"
     integrity="sha384-nsg8ua9HAw1y0W1btsyWgBklPnCUAFLuTMS2G72MMONqmOymq585AcH49TLBQObG"
     crossorigin="anonymous"></script>
-    
+    <script src="js/smooth-scroll.js"></script>
+        <script>
+          var scroll = new SmoothScroll('a[href*="#"]');
+        </script> 
 </body>
 </html>
