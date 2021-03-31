@@ -20,7 +20,7 @@
       <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#"><?php echo "Home"?></a>
+            <a class="nav-link active" aria-current="page" href="index.php"><?php echo "Home"?></a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#padding">About Us</a>

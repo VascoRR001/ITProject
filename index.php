@@ -54,7 +54,7 @@
                         <h4 align="center"><u>'. $title .'</u></h4>
                       </figcaption>
                       <div class="countries_desc">
-                        <p> '. $short_desc .' <a href="#" class="readmore"><i>Read More>> </i></a></p>
+                        <p> '. $short_desc .' <a href="single-page.php?id='.$id.'" class="readmore"><i>Read More>> </i></a></p>
                       </div>
                     </div>
                   </div>
@@ -102,4 +102,4 @@
     </div>
   </div>
   
-  <?php include_once 'include/footer.php'; ?>
+<?php include_once 'include/footer.php'; ?>
