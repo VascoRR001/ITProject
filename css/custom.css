@@ -49,6 +49,9 @@ color: orange;
     margin: 1rem;
     padding: 2rem;
 }
+.padding-9{
+    padding: 90px 0;
+}
 
 .lead{
    color: #798287;
@@ -148,6 +151,46 @@ color: orange;
 .section-blog{
     margin:3% 0;
 }
+.crumbs{
+    margin: 0 -20px;
+    height: 40px;
+    background: #f9f9f9;
+    border-bottom: 1px solid #d9d9d9;
+    padding: 10px;
+}
+.crumbs .breadcrumb li {
+    float: left;
+    font-size: 12px;
+    padding-top: 2px;
+    padding-right: 5px;
+}
+.crumbs .breadcrumb li i {
+    color: #6f6f6f;
+    padding: 0 5px;
+}
+
+.button {
+    background-color: #184D47;
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 12px;
+  }
+
+  .img-table{
+      height: 150px;
+      width: auto;
+  }
+
+  a:hover{
+      color: #fff;
+  }
+
 #footer
 {
     margin-top: 30px;
