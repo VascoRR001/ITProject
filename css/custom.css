@@ -164,9 +164,9 @@ color: orange;
     padding-top: 2px;
     padding-right: 5px;
 }
-.crumbs .breadcrumb li i {
+.crumbs .breadcrumb li  {
     color: #6f6f6f;
-    padding: 0 5px;
+    padding: 0 10px;
 }
 
 .button {
@@ -186,9 +186,14 @@ color: orange;
       height: 150px;
       width: auto;
   }
-
+  a{
+      color: #184D47;
+      font-weight:bold ;
+      font-size: 15px;
+      text-decoration: none;
+  }
   a:hover{
-      color: #fff;
+      color: #000;
   }
 
 #footer

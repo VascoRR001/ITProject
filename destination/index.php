@@ -10,17 +10,16 @@ if (isset($_POST['logout'])){
     session_destroy();
     header('location: login.php');
 }
+    $id = $_GET['deleteId'];
+    if($id){
+        $query = 'DELETE FROM tbl_exp_dest WHERE id = '.$id;
 
-if (isset($_POST['delete_post'])){
-    $id = $_POST['post_id'];
-    $query = 'DELETE FROM tbl_exp_dest WHERE id = '.$id;
-
-    if (mysqli_query($db, $query)) {
-        echo "Record deleted successfully";
-    } else {
-        echo "Error deleting record: " . mysqli_error($db);
+        if (mysqli_query($db, $query)) {
+            echo "Record deleted successfully";
+        } else {
+            echo "Error deleting record: " . mysqli_error($db);
+        }
     }
-}
 
 ?>
 <?php $base_url = "http://".$_SERVER['SERVER_NAME'].':8081/discover-nepal/';?>
@@ -33,12 +32,8 @@ if (isset($_POST['delete_post'])){
   <thead>
     <tr>
         <th colspan=4>
-            <form method="post" action="dashboard-add.php">
-                </select>
-                <input type="hidden" name="add_dis_npl" value="ADD">
-                <input type="submit" name="add_exp_dest" value="ADD">
-                <input type="hidden" name="add_blog" value="ADD">
-                <!-- <input type="submit" value="Submit"> -->
+            <form method="post" action="create.php">
+                <button type="submit" name="add_exp_dest" value="ADD" class="button">New Destination </button>
             </form>
         </th>
     </tr>
@@ -51,7 +46,6 @@ if (isset($_POST['delete_post'])){
         <th width="200">Action</th>
     </tr>
     <?php
-        // Fetch Data
         $query = "SELECT * FROM tbl_exp_dest"; 
 
         $results = mysqli_query($db, $query);
@@ -64,8 +58,8 @@ if (isset($_POST['delete_post'])){
             <td><?php echo $row['id'] ?></td>
             <td><?php echo $row['title'] ?></td>
             <td ><img src= "<?= $base_url.'/img/'.$row['images']; ?>" class="img-table"></td>
-            <td><a href="edit.php "><i class="fas fa-edit"></i></a>
-            <a href="#"> <i class="fas fa-trash-alt"></i></a></td>
+            <td><a href="edit.php?id=<?php echo $row['id']?> "><i class="fas fa-edit"></i></a>
+            <a href="?deleteId=<?php echo $row['id']?>"> <i class="fas fa-trash-alt"></i></a></td>
             
         </tr>
 
