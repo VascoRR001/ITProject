@@ -45,7 +45,8 @@ if (isset($_POST['delete_post'])){
     <a href= "destination" class='button' > <i class="fa fa-plus"></i>Blog </a>
     <a href="aboutUs" class='button' > <i class="fa fa-plus"></i>About Us </a>
     <a href="destination" class='button' > <i class="fa fa-plus"></i>Destinations </a>
-    <a href="#" class='button' > <i class="fa fa-plus"></i>Contact Us </a>
+    <a href="contactUs" class='button' > <i class="fa fa-plus"></i>Contact Us </a>
+    <a href="banner" class='button' > <i class="fa fa-plus"></i>Banner </a>
 </div>
 </div>
 </section>
