@@ -43,7 +43,7 @@ if (isset($_POST['delete_post'])){
 </div>
 <div class ="dashboard-menu">
     <a href= "destination" class='button' > <i class="fa fa-plus"></i>Blog </a>
-    <a href="#" class='button' > <i class="fa fa-plus"></i>About Us </a>
+    <a href="aboutUs" class='button' > <i class="fa fa-plus"></i>About Us </a>
     <a href="destination" class='button' > <i class="fa fa-plus"></i>Destinations </a>
     <a href="#" class='button' > <i class="fa fa-plus"></i>Contact Us </a>
 </div>
