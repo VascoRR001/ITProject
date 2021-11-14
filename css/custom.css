@@ -76,6 +76,7 @@ color: orange;
 .block{
     padding: 5px 5px;
     background-color: #efefef;
+  
     }
 .block figcaption h4{
 	display: block;
@@ -98,6 +99,7 @@ color: orange;
 }
 #blog{
     margin:1.5% 0;
+    
 }
 #blog h2::after
 {
@@ -165,7 +167,7 @@ color: orange;
     padding-right: 5px;
 }
 .crumbs .breadcrumb li  {
-    color: #6f6f6f;
+    color: #8f7a7a;
     padding: 0 10px;
 }
 
@@ -199,11 +201,10 @@ color: orange;
 #footer
 {
     margin-top: 30px;
-    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(/discover-nepal/img/nepalmountain.jpg);
-    background-color:#ffbe76;
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(../img/boats.jpg);
     background-size: cover;
     background-position: center;
-    color:#efefef;
+    
     background-attachment: fixed;
     margin-bottom: 30px;
 }
@@ -212,10 +213,11 @@ color: orange;
 padding-bottom: 10px;
 padding-top: 5px;
 text-align: center;
+color:#efefef;
 }
 #footer p{
     text-align: justify;
-    color:#dfe6e9;
+    color: #798287;
 }
 .text-center
 {
@@ -226,10 +228,30 @@ text-align: center;
 .section-footer{
     margin: 30px auto;
     
+    
 }
+
 .subfooter1{
-    padding-left:50px;
+    padding-left:100px;
+    color: #798287;
 }
+.subfooter2{
+    padding-left:100px;
+    
+}
+.subfooter2 ul li {
+    
+    color: #798287;
+}
+.subfooter2 ul li a {
+    
+    color: #798287;
+}
+.subfooter2 li a:hover{
+    
+    color: #184D47;
+}
+
 .row-blogbox{
     margin:3% 0;
 }
