@@ -202,12 +202,18 @@ color: orange;
       border: 1px;
       background-color: #efefef;;
       margin:1rem;
+      padding:1.5rem;
+      box-shadow: 6px 4px 12px rgb(0,0,0,0.6);
   }
   .Destination-Container{
-    margin:20% 5rem;
+    margin:10rem 5rem;
+}
+
+.row .col img{
+    width:100%;
 }
 .Destination-Container .col img,p,h2,span,button{
-margin:4px 2px;
+margin:8px 2px;
 }
 .Destination-Container button{
     border-radius: 5px;
