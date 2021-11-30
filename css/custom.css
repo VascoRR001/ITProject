@@ -207,6 +207,7 @@ color: orange;
   }
   .Destination-Container{
     margin:10rem 5rem;
+   
 }
 
 .row .col img{
@@ -239,7 +240,8 @@ margin:8px 2px;
 }
 .DetailPage-Container {
     margin:10rem 4rem;
-    height: 100vh;
+    height: 100vh fit-content;
+    width: fit-content;
     
 }
 .DetailPage-Container .col{
