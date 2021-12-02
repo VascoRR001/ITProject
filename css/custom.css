@@ -369,3 +369,110 @@ ul li{
 .blog-detail .h4{
     text-align: center;
 }
+.home{
+    margin-top: 90px;
+
+}.index .member {
+    border: 3px solid white;
+}
+
+.index .member:hover {
+    border: 3px solid white;
+    background: lightgray !important;
+}
+
+.index .member img,
+.detail .member img{
+    border: 3px solid lightgray;
+}
+
+.index .member:hover img {
+    border: 3px solid white;
+}
+
+span {
+    color: #fff;
+}
+
+.name {
+    color: #252525;
+}
+
+.work {
+    font-size: 15px;
+    color: #808080;
+    margin-top: -10px;
+}
+
+.about span {
+    font-size: 13px;
+    color: #000
+}
+
+.v-profile>a {
+    color: blue;
+    cursor: pointer;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.card>a {
+    color: blue;
+    text-decoration: none;
+}
+
+.box {
+    -webkit-box-shadow: 13px 12px 5px -10px rgba(196, 194, 196, 0.72);
+    -moz-box-shadow: 13px 12px 5px -10px rgba(196, 194, 196, 0.72);
+    box-shadow: 13px 12px 5px -10px rgba(196, 194, 196, 0.72)
+}
+
+.col-md-3 {
+    margin-top: 10px;
+}
+
+.card {
+    border: 1px;
+    padding: 10px;
+    box-shadow: 5px 5px 10px 8px #888888;
+    position: relative;
+    overflow: hidden;
+    border-radius: 8px;
+    margin-top: 90px;
+}
+
+.card:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 4px;
+    height: 100%;
+}
+
+.card:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 4px;
+    height: 100%;
+}
+
+.card:hover::after {
+    transform: scaleY(1)
+}
+
+.fonts {
+    font-size: 11px
+}
+
+/* DETAILS */
+.detail .card span{
+    color: gray !important;
+}
+.rounded-circle{
+    height:100px;
+    width:100px;
+}
+
