@@ -204,10 +204,10 @@ color: orange;
       margin:1rem;
       padding:1.5rem;
       box-shadow: 6px 4px 12px rgb(0,0,0,0.6);
+      min-width: 300px;
   }
   .Destination-Container{
     margin:10rem 5rem;
-   
 }
 
 .row .col img{
@@ -254,10 +254,63 @@ margin:8px 2px;
 }
 .col img{
     width: 100%;
-    height: 30%;
+    
 }
-.Short-itenary-div h3,span{
-    margin-top: 3rem;
+figcaption{
+    margin: 0.7rem;
+}
+.wrapper{
+    max-width: 700px;
+    width: 100%;
+    margin:1rem auto;
+    background: #fff;
+    padding:0.1;
+
+}
+.wrapper nav{
+    margin-bottom: 1rem;
+}
+.wrapper nav label{
+    display: inline;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    line-height: 50px;
+    cursor: pointer;
+    color:#333;
+    font-size: 17px;
+    margin:0.3rem 1.2rem 0.3rem 1rem;
+    
+    
+}
+.wrapper nav label:hover{
+    background-color: #333;
+    color:#fff;
+}
+input[type="radio"]{
+    display: none;
+}
+.wrapper section{
+    padding:1rem;
+}
+.wrapper section p{
+    margin:1rem 0 1rem 0;
+}
+.wrapper section h3{
+    font-size: 21px;
+    font-weight: 500;
+}
+section .content{
+    display: none;
+}
+
+#Overview:checked ~section .content-1,
+#Detail:checked ~section .content-2,
+#Inclusions:checked ~section .content-3,
+#Exclusions:checked ~section .content-4,
+#Equipment:checked ~section .content-5,
+#Review:checked ~section .content-6{
+    display: block;
 }
 
 #footer
