@@ -268,9 +268,15 @@ figcaption{
 
 }
 .wrapper nav{
+    position: relative;
     margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
 }
 .wrapper nav label{
+    flex:1 1 80px;
+    display: block;
     display: inline;
     height: 100%;
     width: 100%;
@@ -280,13 +286,11 @@ figcaption{
     color:#333;
     font-size: 17px;
     margin:0.3rem 1.2rem 0.3rem 1rem;
-    
+    position: relative;
+    z-index: 1;
     
 }
-.wrapper nav label:hover{
-    background-color: #333;
-    color:#fff;
-}
+
 input[type="radio"]{
     display: none;
 }
@@ -303,6 +307,25 @@ input[type="radio"]{
 section .content{
     display: none;
 }
+#Overview:checked ~nav .slider{
+    left:0;
+}
+#Detail:checked ~nav .slider{
+    left:7rem;
+}
+#Inclusions:checked ~nav .slider{
+    left:14.3rem;
+}
+#Exclusions:checked ~nav .slider{
+    left:21.5rem;
+}
+#Equipment:checked ~nav .slider{
+    left:29rem;
+}
+#Review:checked ~nav .slider{
+    left:36.3rem;
+}
+
 
 #Overview:checked ~section .content-1,
 #Detail:checked ~section .content-2,
@@ -312,6 +335,32 @@ section .content{
 #Review:checked ~section .content-6{
     display: block;
 }
+
+@media (min-width:816px){
+    .slider{
+        position: absolute;
+        height: 85%;
+        width:15%;
+        background-color: rgb(82, 196, 142);
+        border-radius: 5px;
+        margin-left:0.5rem;
+        z-index: 0;
+        transition: all 0.3s ease;
+        
+    }
+}
+@media (max-width:815px) {
+    #Overview:checked ~nav label.Overview,
+    #Detail:checked ~nav label.Detail,
+    #Inclusions:checked ~nav label.Inclusions,
+    #Exclusions:checked ~nav label.Exclusions,
+    #Equipment:checked ~nav label.Equipment,
+    #Review:checked ~nav label.Review{
+    background-color:rgb(82, 196, 142);
+    border-radius: 5px;
+}
+}
+
 
 #footer
 {
