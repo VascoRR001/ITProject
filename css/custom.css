@@ -336,7 +336,7 @@ section .content{
     display: block;
 }
 
-@media (min-width:816px){
+@media (min-width:1376px){
     .slider{
         position: absolute;
         height: 85%;
@@ -349,7 +349,7 @@ section .content{
         
     }
 }
-@media (max-width:815px) {
+@media (max-width:1375px) {
     #Overview:checked ~nav label.Overview,
     #Detail:checked ~nav label.Detail,
     #Inclusions:checked ~nav label.Inclusions,
