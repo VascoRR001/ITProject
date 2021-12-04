@@ -1,0 +1,56 @@
+@import "custom.css";
+
+/* Small devices (landscape phones, 576px and up) */
+@media (max-width: 576px) {
+    .member img {
+        float: left;
+        margin-right: 1rem;
+        max-width: 70px;
+    }
+    .member .name,
+    .member .work
+    {
+        text-align: left;
+    }
+
+    .member .name {
+        font-size: 18px;
+        margin-top: 15px !important;
+    }
+
+    .member .work {
+        font-size: 14px;
+        margin-top: -10px !important;
+    }
+
+    .member .about {
+        clear: both;
+        text-align: left;
+        margin-top: 25px;
+    }
+}
+
+
+/* Medium devices (tablets, 768px and up) */
+@media (max-width: 768px) {
+
+
+}
+
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+
+}
+
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+}
+
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {
+
+}
